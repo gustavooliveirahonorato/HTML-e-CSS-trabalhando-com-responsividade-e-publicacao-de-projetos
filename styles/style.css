@@ -1,0 +1,150 @@
+ @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cor-primaria: rgb(18, 100, 232); 
+    --cor-secundaria: rgb(232, 18, 18);
+    --cor-terciaria: #F6F6F6;
+    --cor-hover: rgb(82, 164, 219);
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+        body {
+            /* height: 100vh; */
+            box-sizing: border-box;
+            background-color: rgb(21, 21, 21);
+            color: var(--cor-terciaria);
+            
+        }
+
+        .cabecalho {
+            padding: 2% 0% 0% 15%;
+        }
+
+        .cabecalho__menu {
+            display: flex;
+            gap: 80px;
+            padding: 21px 0px;
+            
+        }
+        
+       .cabecalho__menu__link {
+            text-decoration: none;
+            /* border: 2px solid rgb(17, 0, 255); */
+            color: rgb(255, 255, 0);
+            font-family: var(--fonte-secundaria);
+            font-size: 30px;
+            
+        }
+        
+        .excepcional {
+            color: rgb(18, 100, 232);
+        }
+        
+        
+
+        .apresentacao {
+            padding: 0% 15%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 100vh;
+        }
+
+        .apresentacao__conteudo {
+            width: 615px;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+        }
+
+        .apresentacao__conteudo__titulo {
+        font-family: var(--fonte-primaria);
+            font-size: 2.5em;
+            margin-bottom: 0px;
+        }
+
+        .titulo-destaque {
+            color: var(--cor-secundaria);
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        .apresentacao__conteudo__descricao {
+        font-family: var(--fonte-secundaria);
+        font-size: 1.8em;
+        }
+
+
+        
+        .apresentacao__links {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            align-items: center;
+            gap: 32px;
+        }
+
+        .apresentacao__links__subtitulo {
+        font-family: var(--fonte-primaria);
+        font-weight: 400;
+        font-size: 24px;
+        color: rgb(78, 220, 12);
+       }
+
+      .apresentacao__links__link{
+          width: 400px;
+          border: 2px solid rgb(18, 100, 232);
+          border-radius: 10px;
+          font-size: 29px;
+          font-weight: 600;
+          padding: 19.5px 0px;
+          text-decoration: none;
+          color: var(--cor-terciaria);
+          font-family: var(--fonte-secundaria);
+          display: flex; /* Transforma o botão em um container flexível */
+    align-items: center; /* Alinha o texto e o logo perfeitamente no meio (vertical) */
+    justify-content: center; /* Centraliza o bloco de conteúdo */
+    gap: 15px; /* Cria um espaço fixo e sadio entre o logo e o texto */
+       }
+
+       .apresentacao__links__link:hover {
+        background-color: var(--cor-hover);
+        transition: 0.5s;
+       }
+
+         .apresentacao__links__link__imagem {
+                width: 30px;
+                height: 30px;
+          }
+    
+          .rodape {
+                color: var(--cor-terciaria);
+                background-color: rgb(55, 82, 219);
+                text-align: center;
+                padding: 25px 0px;
+          }
+    
+          .rodape__texto {
+                font-family: var(--fonte-secundaria);
+                font-size: 1.8em;
+                color: var(--cor-terciaria);
+          }
+    
+          .rodape__texto__destaque {
+                color: var(--cor-secundaria);
+                font-size: 1.1em;
+
+          }
+
+            .rodape__texto__destaque2 {
+                    color: rgba(5, 5, 5, 0.839);
+            }
+
+
+    
