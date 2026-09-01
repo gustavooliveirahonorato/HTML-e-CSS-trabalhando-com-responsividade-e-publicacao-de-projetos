@@ -12,7 +12,7 @@ Projeto desenvolvido durante os estudos de **HTML e CSS**, com foco na criação
 - Utilização de fontes do Google Fonts
 - Publicação de projetos
 
-**Tecnologias**
+**Tecnologias utilizadas**
 
 - HTML5
 - CSS3
