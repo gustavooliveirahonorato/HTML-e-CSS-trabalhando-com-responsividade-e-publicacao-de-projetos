@@ -1,6 +1,6 @@
-**HTML e CSS — Trabalhando com Responsividade e Publicação de Projetos**
+**HTML e CSS - Trabalhando com Responsividade e Publicação de Projetos**
 
-Projeto desenvolvido durante os estudos de **HTML e CSS**, com foco na criação de uma página web responsiva e na publicação de projetos.
+Projeto **NÃO COMPLETO** desenvolvido durante os estudos de **HTML e CSS**, com foco na criação de uma página web responsiva e na publicação de projetos.
 
 **Conteúdos**
 
